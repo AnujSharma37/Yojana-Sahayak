@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Yojana Sahayak
 
 **The Right Scheme. The Right Guidance. In Your Language.**
@@ -118,3 +119,6 @@ For each scheme:
 - Should-have items not built yet: email/password auth, dashboard, scheme comparison, and thumbs up/down feedback. Could-have items not built: admin page, voice input, more languages, OTP.
 - Checker explanations are templated (English/Hindi), not AI-generated.
 - The UI uses native accessible HTML elements rather than shadcn/Radix.
+=======
+# Yojana-Sahayak
+>>>>>>> ba4ee27f4a1eccb97bccdf37553f435f4161800f
