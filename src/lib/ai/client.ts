@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 
 // Server-side only. API keys are never sent to the browser.
 
-export type LlmProvider = "gemini" | "anthropic"
+export type LlmProvider = "gemini" | "anthropic";
 
 const clean = (value: string | undefined) => value?.trim() ?? "";
 
