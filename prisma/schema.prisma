@@ -1,0 +1,78 @@
+// Yojana Sahayak data model (MUST-have scope).
+// Auth/dashboard models (S1-S4) are deliberately not added yet; see README "Future work".
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Level {
+  central
+  state
+}
+
+enum VerificationStatus {
+  verified
+  needs_verification
+  outdated
+}
+
+enum DataOrigin {
+  curated_from_public_page
+  live_api
+}
+
+model Scheme {
+  id                  String             @id @default(cuid())
+  slug                String             @unique
+  nameEn              String
+  nameHi              String?
+  level               Level
+  state               String?
+  department          String
+  categories          String[]
+  targetBeneficiaries String
+  descriptionEn       String
+  descriptionHi       String?
+  benefits            String
+  eligibilityText     String
+  /// Structured rules evaluated by src/lib/eligibility/engine.ts. Null = not yet encoded.
+  eligibilityRules    Json?
+  documentsRequired   String[]
+  applicationSteps    String[]
+  officialApplyUrl    String
+  sourceUrl           String
+  sourceType          String
+  dataOrigin          DataOrigin
+  /// When a human last checked this record against sourceUrl. Null = never.
+  lastCheckedAt       DateTime?
+  verificationStatus  VerificationStatus @default(needs_verification)
+  hiReviewed          Boolean            @default(false)
+  curationNotes       String?
+  /// Denormalised text used for full-text and trigram search (built by the seed script).
+  searchText          String             @default("")
+  /// tsvector over searchText, filled by the seed script.
+  searchVector        Unsupported("tsvector")?
+  createdAt           DateTime           @default(now())
+  updatedAt           DateTime           @updatedAt
+  sourceChecks        SourceCheck[]
+
+  @@index([verificationStatus, level, state])
+}
+
+model SourceCheck {
+  id         String   @id @default(cuid())
+  schemeId   String
+  scheme     Scheme   @relation(fields: [schemeId], references: [id], onDelete: Cascade)
+  url        String
+  httpStatus Int?
+  ok         Boolean
+  error      String?
+  checkedAt  DateTime @default(now())
+
+  @@index([schemeId, checkedAt])
+}

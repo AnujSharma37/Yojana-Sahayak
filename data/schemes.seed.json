@@ -1,0 +1,1270 @@
+{
+  "_readme": "Hand-curated from official public pages. Every record stays needs_verification until a person checks it against source_url, fixes any wrong values, then sets verification_status to verified and last_checked_at to the check date (YYYY-MM-DD). Hindi text is machine-drafted: set hi_reviewed true only after a fluent reviewer checks it.",
+  "schemes": [
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-kisan",
+      "name_en": "PM Kisan Samman Nidhi (PM-KISAN)",
+      "name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "categories": [
+        "farmers",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Landholding farmer families",
+      "description_en": "Direct income support for landholding farmer families, paid into their bank account.",
+      "description_hi": "ज़मीन वाले किसान परिवारों को सीधे बैंक खाते में आय सहायता।",
+      "benefits": "Income support of Rs 6,000 per year, paid in three instalments of Rs 2,000 through Direct Benefit Transfer.",
+      "eligibility_text": "Landholding farmer families with cultivable land in their name. Exclusions include institutional landholders, income-tax payers, holders of constitutional posts, serving or retired government employees (with some exceptions), and certain professionals.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "is_farmer",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Land ownership records",
+        "Bank account linked with Aadhaar",
+        "Mobile number"
+      ],
+      "application_steps": [
+        "Open the PM-KISAN portal and choose New Farmer Registration, or visit a Common Service Centre.",
+        "Enter Aadhaar, land and bank details.",
+        "Complete e-KYC.",
+        "Track status with Know Your Status on the portal."
+      ],
+      "official_apply_url": "https://pmkisan.gov.in/",
+      "source_url": "https://pmkisan.gov.in/",
+      "curation_notes": "Confirm amount, exclusion list and e-KYC requirement on the portal FAQ."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-fasal-bima-yojana",
+      "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "categories": [
+        "farmers"
+      ],
+      "target_beneficiaries": "Farmers, including sharecroppers and tenant farmers, growing notified crops in notified areas",
+      "description_en": "Crop insurance against crop loss from natural calamities, pests and diseases, at a low farmer premium.",
+      "description_hi": "प्राकृतिक आपदा, कीट और रोग से फसल नुकसान पर कम प्रीमियम वाला फसल बीमा।",
+      "benefits": "Insurance cover for notified crops. Farmer premium is capped (commonly 2% for kharif, 1.5% for rabi, 5% for commercial and horticultural crops); the rest is shared by central and state governments.",
+      "eligibility_text": "All farmers growing notified crops in notified areas, including sharecroppers and tenant farmers. Enrolment is within the season's cut-off dates.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "is_farmer",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Bank account details",
+        "Land records or tenancy/sowing certificate",
+        "Sowing declaration"
+      ],
+      "application_steps": [
+        "Apply through your bank, a Common Service Centre, an insurance company agent, or the PMFBY portal.",
+        "Choose the notified crop and area.",
+        "Pay the farmer share of premium.",
+        "Keep the policy receipt."
+      ],
+      "official_apply_url": "https://pmfby.gov.in/",
+      "source_url": "https://pmfby.gov.in/",
+      "curation_notes": "Confirm premium caps and current season cut-off dates; do not show dates unless verified."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "kisan-credit-card",
+      "name_en": "Kisan Credit Card (KCC)",
+      "name_hi": "किसान क्रेडिट कार्ड",
+      "level": "central",
+      "state": null,
+      "department": "Department of Agriculture and Farmers Welfare",
+      "categories": [
+        "farmers"
+      ],
+      "target_beneficiaries": "Farmers, tenant farmers, sharecroppers, and those in animal husbandry and fisheries",
+      "description_en": "A credit card from banks that gives farmers timely short-term loans for crops and allied activities.",
+      "description_hi": "बैंकों से किसानों को फसल और संबंधित कामों के लिए समय पर अल्पकालिक ऋण।",
+      "benefits": "Short-term credit for cultivation and allied activities. Interest subvention is available on loans up to a limit, with an extra incentive for prompt repayment.",
+      "eligibility_text": "Owner cultivators, tenant farmers, oral lessees, sharecroppers, self-help groups or joint liability groups of farmers, and farmers in animal husbandry or fisheries.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "is_farmer",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Filled application form",
+        "Identity proof",
+        "Address proof",
+        "Land records or proof of cultivation"
+      ],
+      "application_steps": [
+        "Visit your bank branch or apply online where your bank allows it.",
+        "Submit the KCC form with documents.",
+        "Bank assesses the credit limit.",
+        "Card is issued after approval."
+      ],
+      "official_apply_url": "https://agriwelfare.gov.in/",
+      "source_url": "https://agriwelfare.gov.in/",
+      "curation_notes": "Find the exact KCC page on agriwelfare.gov.in or myscheme.gov.in; confirm interest subvention figures."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "soil-health-card",
+      "name_en": "Soil Health Card Scheme",
+      "name_hi": "मृदा स्वास्थ्य कार्ड योजना",
+      "level": "central",
+      "state": null,
+      "department": "Department of Agriculture and Farmers Welfare",
+      "categories": [
+        "farmers"
+      ],
+      "target_beneficiaries": "All farmers",
+      "description_en": "Free soil testing with a card that recommends nutrients and fertiliser for your field.",
+      "description_hi": "मुफ्त मिट्टी जांच और खेत के लिए खाद व पोषक तत्वों की सलाह वाला कार्ड।",
+      "benefits": "Soil sample tested free of cost. The card shows soil nutrient status and crop-wise fertiliser recommendations.",
+      "eligibility_text": "Open to all farmers.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "is_farmer",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Farmer details",
+        "Land/plot details"
+      ],
+      "application_steps": [
+        "Contact the local agriculture department office or Krishi Vigyan Kendra.",
+        "Soil sample is collected from your field.",
+        "Download or collect the card from the Soil Health Card portal."
+      ],
+      "official_apply_url": "https://soilhealth.dac.gov.in/",
+      "source_url": "https://soilhealth.dac.gov.in/",
+      "curation_notes": "Confirm current process on the portal."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-kusum",
+      "name_en": "PM-KUSUM (solar pumps for farmers)",
+      "name_hi": "प्रधानमंत्री किसान ऊर्जा सुरक्षा एवं उत्थान महाभियान (पीएम-कुसुम)",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of New and Renewable Energy",
+      "categories": [
+        "farmers"
+      ],
+      "target_beneficiaries": "Individual farmers, groups of farmers, cooperatives and panchayats",
+      "description_en": "Subsidy for solar irrigation pumps and for solarising existing grid-connected pumps.",
+      "description_hi": "सौर सिंचाई पंप लगाने और मौजूदा पंपों को सौर ऊर्जा से चलाने के लिए सब्सिडी।",
+      "benefits": "Central financial assistance for standalone solar pumps and pump solarisation, with state support; higher central share in North-Eastern and hill states. Exact shares must be checked on the official page.",
+      "eligibility_text": "Individual farmers, groups of farmers, FPOs, cooperatives and panchayats, through the state implementing agency.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "is_farmer",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Land records",
+        "Bank account details",
+        "Farmer registration with the state agency"
+      ],
+      "application_steps": [
+        "Apply through your state implementing agency's PM-KUSUM portal.",
+        "Pay the farmer share after selection.",
+        "Pump is installed by an empanelled vendor."
+      ],
+      "official_apply_url": "https://pmkusum.mnre.gov.in/",
+      "source_url": "https://pmkusum.mnre.gov.in/",
+      "curation_notes": "Verify subsidy shares and Uttarakhand implementing agency (UREDA) link."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-ujjwala-yojana",
+      "name_en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "name_hi": "प्रधानमंत्री उज्ज्वला योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Petroleum and Natural Gas",
+      "categories": [
+        "women",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Adult women from poor households without an LPG connection",
+      "description_en": "Deposit-free LPG connection for women from poor households.",
+      "description_hi": "गरीब परिवारों की महिलाओं को बिना जमा राशि के एलपीजी कनेक्शन।",
+      "benefits": "Deposit-free LPG connection. Check the official page for current refill support.",
+      "eligibility_text": "Adult woman (18+) from a poor household as defined by the scheme, with no existing LPG connection in the household.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          },
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 18
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar of applicant",
+        "Ration card or other family identity document",
+        "Bank account details",
+        "Proof of address"
+      ],
+      "application_steps": [
+        "Apply online on the PMUY portal or at the nearest LPG distributor.",
+        "Submit KYC and household documents.",
+        "Connection is released after verification."
+      ],
+      "official_apply_url": "https://pmuy.gov.in/",
+      "source_url": "https://pmuy.gov.in/",
+      "curation_notes": "Confirm list of eligible household categories and any refill subsidy amounts."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "sukanya-samriddhi-yojana",
+      "name_en": "Sukanya Samriddhi Yojana",
+      "name_hi": "सुकन्या समृद्धि योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Finance (Department of Economic Affairs)",
+      "categories": [
+        "women",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Parents or guardians of a girl child below 10 years",
+      "description_en": "A small-savings account for a girl child, opened by a parent or guardian, with government-set interest.",
+      "description_hi": "बेटी के लिए छोटी बचत योजना, जिसे माता-पिता या अभिभावक खोलते हैं; ब्याज दर सरकार तय करती है।",
+      "benefits": "Savings account for the girl child with interest set by the government each quarter; deposits qualify for income-tax deduction under Section 80C.",
+      "eligibility_text": "Account opened in the name of a girl child below 10 years by a parent or legal guardian. Limits apply on the number of accounts per family and on yearly deposits.",
+      "eligibility_rules": null,
+      "documents_required": [
+        "Birth certificate of the girl child",
+        "Identity and address proof of parent/guardian",
+        "Photographs"
+      ],
+      "application_steps": [
+        "Visit a post office or an authorised bank.",
+        "Fill the account opening form.",
+        "Make the first deposit."
+      ],
+      "official_apply_url": "https://www.indiapost.gov.in/",
+      "source_url": "https://www.nsiindia.gov.in/",
+      "curation_notes": "Rules intentionally null: eligibility depends on the daughter's age, not the person using the checker. Confirm deposit limits and current interest rate."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-matru-vandana-yojana",
+      "name_en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "name_hi": "प्रधानमंत्री मातृ वंदना योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Women and Child Development",
+      "categories": [
+        "women",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Pregnant women and lactating mothers",
+      "description_en": "Cash support to pregnant women and new mothers to support rest and nutrition.",
+      "description_hi": "गर्भवती महिलाओं और नई माताओं को आराम और पोषण के लिए नकद सहायता।",
+      "benefits": "Cash incentive for the first child in instalments, and for a second child if the second child is a girl (as revised under Mission Shakti). Confirm amounts on the official page.",
+      "eligibility_text": "Pregnant women and lactating mothers meeting the scheme's criteria; government employees receiving similar benefits are excluded.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Bank or post office account",
+        "MCP (mother and child protection) card",
+        "Pregnancy registration details"
+      ],
+      "application_steps": [
+        "Register at the Anganwadi centre or health facility, or on the PMMVY portal.",
+        "Submit the form with documents.",
+        "Instalments are paid by DBT after conditions are met."
+      ],
+      "official_apply_url": "https://pmmvy.wcd.gov.in/",
+      "source_url": "https://pmmvy.wcd.gov.in/",
+      "curation_notes": "Confirm current amounts (PMMVY 2.0) and eligibility categories."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "nanda-gaura-yojana-uttarakhand",
+      "name_en": "Nanda Gaura Yojana (Uttarakhand)",
+      "name_hi": "नंदा गौरा योजना (उत्तराखंड)",
+      "level": "state",
+      "state": "Uttarakhand",
+      "department": "Department of Women Empowerment and Child Development, Uttarakhand",
+      "categories": [
+        "women",
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Girls from eligible families in Uttarakhand",
+      "description_en": "Uttarakhand financial assistance for girls, at birth and after passing class 12.",
+      "description_hi": "उत्तराखंड में बालिकाओं को जन्म पर और कक्षा 12 पास करने पर आर्थिक सहायता।",
+      "benefits": "One-time assistance at the birth of a girl and on passing class 12. Confirm current amounts on the official page.",
+      "eligibility_text": "Girls from Uttarakhand families meeting the scheme's income limit; conditions on the number of girls per family and application time limits apply.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "state",
+            "op": "in",
+            "value": [
+              "Uttarakhand"
+            ]
+          },
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 72000
+          }
+        ]
+      },
+      "documents_required": [
+        "Birth certificate",
+        "Uttarakhand residence certificate",
+        "Income certificate",
+        "Class 12 marksheet (for the second instalment)",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Apply on the department's portal or at the Anganwadi/CDPO office within the time limit.",
+        "Submit documents.",
+        "Track application status."
+      ],
+      "official_apply_url": "https://wecd.uk.gov.in/",
+      "source_url": "https://wecd.uk.gov.in/",
+      "curation_notes": "Merged from the earlier Nanda Devi Kanya Dhan and Gaura Devi Kanya Dhan schemes. Income limit 72000 is a DRAFT value from memory: verify before marking verified."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "janani-suraksha-yojana",
+      "name_en": "Janani Suraksha Yojana (JSY)",
+      "name_hi": "जननी सुरक्षा योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Health and Family Welfare (National Health Mission)",
+      "categories": [
+        "women",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Pregnant women delivering in government or accredited health facilities",
+      "description_en": "Cash assistance to encourage safe delivery in a health facility.",
+      "description_hi": "अस्पताल में सुरक्षित प्रसव को बढ़ावा देने के लिए नकद सहायता।",
+      "benefits": "Cash assistance for institutional delivery; amounts differ by state category and rural or urban area.",
+      "eligibility_text": "Pregnant women, with conditions that differ between low-performing and high-performing states.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          }
+        ]
+      },
+      "documents_required": [
+        "MCP card",
+        "Aadhaar card",
+        "Bank account details",
+        "BPL or category certificate where required"
+      ],
+      "application_steps": [
+        "Register the pregnancy with the ASHA worker or health centre.",
+        "Deliver at a government or accredited facility.",
+        "Assistance is paid to the bank account."
+      ],
+      "official_apply_url": "https://nhm.gov.in/",
+      "source_url": "https://nhm.gov.in/",
+      "curation_notes": "Find the JSY page on nhm.gov.in; confirm amounts for Uttarakhand."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "ayushman-bharat-pmjay",
+      "name_en": "Ayushman Bharat PM-JAY",
+      "name_hi": "आयुष्मान भारत प्रधानमंत्री जन आरोग्य योजना",
+      "level": "central",
+      "state": null,
+      "department": "National Health Authority",
+      "categories": [
+        "low_income_families",
+        "senior_citizens"
+      ],
+      "target_beneficiaries": "Eligible poor and vulnerable families; all senior citizens aged 70+",
+      "description_en": "Free hospital treatment cover at empanelled public and private hospitals.",
+      "description_hi": "सूचीबद्ध सरकारी और निजी अस्पतालों में मुफ्त इलाज का बीमा कवर।",
+      "benefits": "Health cover of up to Rs 5 lakh per family per year for secondary and tertiary hospitalisation, cashless at empanelled hospitals.",
+      "eligibility_text": "Families identified by the scheme's deprivation and occupational criteria and later expansions; senior citizens aged 70 and above are covered regardless of income.",
+      "eligibility_rules": {
+        "any": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 70
+          },
+          {
+            "field": "is_bpl",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Ration card or PM letter (if available)",
+        "Mobile number"
+      ],
+      "application_steps": [
+        "Check eligibility on the beneficiary portal or at an empanelled hospital.",
+        "Complete e-KYC.",
+        "Download the Ayushman card."
+      ],
+      "official_apply_url": "https://beneficiary.nha.gov.in/",
+      "source_url": "https://pmjay.gov.in/",
+      "curation_notes": "Rule using is_bpl is a simplification; real identification uses SECC/state lists. Prefer rules that send users to the beneficiary check."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "atal-ayushman-uttarakhand",
+      "name_en": "Atal Ayushman Uttarakhand Yojana",
+      "name_hi": "अटल आयुष्मान उत्तराखंड योजना",
+      "level": "state",
+      "state": "Uttarakhand",
+      "department": "State Health Authority, Uttarakhand",
+      "categories": [
+        "low_income_families",
+        "senior_citizens"
+      ],
+      "target_beneficiaries": "Families in Uttarakhand",
+      "description_en": "Uttarakhand health cover for families, run alongside Ayushman Bharat.",
+      "description_hi": "उत्तराखंड के परिवारों के लिए स्वास्थ्य बीमा कवर, आयुष्मान भारत के साथ।",
+      "benefits": "Cashless treatment cover at empanelled hospitals. Confirm cover amount on the official page.",
+      "eligibility_text": "Families resident in Uttarakhand, as defined by the State Health Authority.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "state",
+            "op": "in",
+            "value": [
+              "Uttarakhand"
+            ]
+          }
+        ]
+      },
+      "documents_required": [
+        "Aadhaar card",
+        "Ration card",
+        "Uttarakhand residence proof"
+      ],
+      "application_steps": [
+        "Visit a CSC or empanelled hospital.",
+        "Complete card registration.",
+        "Use the card for cashless treatment."
+      ],
+      "official_apply_url": "https://sha.uk.gov.in/",
+      "source_url": "https://sha.uk.gov.in/",
+      "curation_notes": "Confirm coverage amount and any exclusions for government employees."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-suraksha-bima-yojana",
+      "name_en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "name_hi": "प्रधानमंत्री सुरक्षा बीमा योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Finance (Department of Financial Services)",
+      "categories": [
+        "low_income_families",
+        "job_seekers"
+      ],
+      "target_beneficiaries": "Bank or post office account holders aged 18-70",
+      "description_en": "Low-cost accident insurance renewed every year through your bank account.",
+      "description_hi": "बैंक खाते से हर साल नवीनीकृत होने वाला सस्ता दुर्घटना बीमा।",
+      "benefits": "Accident cover of Rs 2 lakh for death or full disability and Rs 1 lakh for partial disability, for a small yearly premium auto-debited from the account.",
+      "eligibility_text": "Account holders aged 18 to 70 who give consent for auto-debit.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 18
+          },
+          {
+            "field": "age",
+            "op": "lte",
+            "value": 70
+          }
+        ]
+      },
+      "documents_required": [
+        "Bank or post office savings account",
+        "Aadhaar (for KYC)",
+        "Nominee details"
+      ],
+      "application_steps": [
+        "Enrol through your bank branch, net banking, or the Jan Suraksha portal.",
+        "Give auto-debit consent.",
+        "Keep the acknowledgement."
+      ],
+      "official_apply_url": "https://jansuraksha.gov.in/",
+      "source_url": "https://jansuraksha.gov.in/",
+      "curation_notes": "Confirm current premium amount."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "atal-pension-yojana",
+      "name_en": "Atal Pension Yojana (APY)",
+      "name_hi": "अटल पेंशन योजना",
+      "level": "central",
+      "state": null,
+      "department": "Pension Fund Regulatory and Development Authority",
+      "categories": [
+        "job_seekers",
+        "low_income_families",
+        "senior_citizens"
+      ],
+      "target_beneficiaries": "Citizens aged 18-40, mainly in the unorganised sector",
+      "description_en": "A pension plan where your monthly contributions give a guaranteed pension after age 60.",
+      "description_hi": "हर महीने योगदान करें और 60 साल के बाद तय पेंशन पाएं।",
+      "benefits": "Guaranteed monthly pension from age 60, in fixed slabs between Rs 1,000 and Rs 5,000 depending on contribution; pension continues to the spouse, and the corpus goes to the nominee.",
+      "eligibility_text": "Indian citizens aged 18 to 40 with a savings bank account. Income-tax payers are not eligible to join (from 1 October 2022).",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 18
+          },
+          {
+            "field": "age",
+            "op": "lte",
+            "value": 40
+          }
+        ]
+      },
+      "documents_required": [
+        "Savings bank account",
+        "Aadhaar",
+        "Mobile number",
+        "Nominee details"
+      ],
+      "application_steps": [
+        "Apply through your bank branch or net banking.",
+        "Choose the pension amount.",
+        "Contributions are auto-debited."
+      ],
+      "official_apply_url": "https://www.pfrda.org.in/",
+      "source_url": "https://www.pfrda.org.in/",
+      "curation_notes": "Confirm income-tax payer exclusion and slab details."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "nsap-old-age-pension",
+      "name_en": "Indira Gandhi National Old Age Pension Scheme (NSAP)",
+      "name_hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Rural Development",
+      "categories": [
+        "senior_citizens",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Senior citizens aged 60+ from BPL households",
+      "description_en": "Monthly pension for elderly people from below-poverty-line households; states often add their own amount.",
+      "description_hi": "गरीबी रेखा से नीचे के परिवारों के बुजुर्गों को मासिक पेंशन; कई राज्य अपनी राशि जोड़ते हैं।",
+      "benefits": "Central monthly pension (higher for those aged 80+), plus any state top-up. Check your state's total amount.",
+      "eligibility_text": "Persons aged 60 or above belonging to a BPL household.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 60
+          },
+          {
+            "field": "is_bpl",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "documents_required": [
+        "Age proof",
+        "BPL card",
+        "Aadhaar",
+        "Bank or post office account"
+      ],
+      "application_steps": [
+        "Apply at the block office, municipality, or state social welfare portal.",
+        "Submit documents for verification.",
+        "Pension is paid by DBT after sanction."
+      ],
+      "official_apply_url": "https://nsap.nic.in/",
+      "source_url": "https://nsap.nic.in/",
+      "curation_notes": "Confirm central amounts and Uttarakhand state top-up and application route."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-mudra-yojana",
+      "name_en": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "name_hi": "प्रधानमंत्री मुद्रा योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Finance (Department of Financial Services)",
+      "categories": [
+        "entrepreneurs",
+        "women",
+        "job_seekers"
+      ],
+      "target_beneficiaries": "Non-farm micro and small enterprises",
+      "description_en": "Collateral-free loans from banks and lenders to start or grow a small business.",
+      "description_hi": "छोटा व्यापार शुरू करने या बढ़ाने के लिए बिना गारंटी का ऋण।",
+      "benefits": "Loans in categories Shishu, Kishore, Tarun and Tarun Plus, with increasing limits. Confirm current limits on the official page.",
+      "eligibility_text": "Indian citizens with a business plan for a non-farm income-generating activity in manufacturing, trading or services, including allied agricultural activities.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 18
+          }
+        ]
+      },
+      "documents_required": [
+        "Identity and address proof",
+        "Business plan or quotation",
+        "Bank statements (if existing business)",
+        "Photographs"
+      ],
+      "application_steps": [
+        "Approach a bank, NBFC or MFI, or apply on the JanSamarth portal.",
+        "Submit the loan application with documents.",
+        "Lender appraises and sanctions the loan."
+      ],
+      "official_apply_url": "https://www.jansamarth.in/",
+      "source_url": "https://www.mudra.org.in/",
+      "curation_notes": "Confirm loan limits including Tarun Plus."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "stand-up-india",
+      "name_en": "Stand-Up India",
+      "name_hi": "स्टैंड-अप इंडिया",
+      "level": "central",
+      "state": null,
+      "department": "Department of Financial Services (via SIDBI)",
+      "categories": [
+        "entrepreneurs",
+        "women"
+      ],
+      "target_beneficiaries": "Women and SC/ST entrepreneurs starting a new enterprise",
+      "description_en": "Bank loans for women and SC/ST entrepreneurs setting up a new (greenfield) business.",
+      "description_hi": "महिलाओं और अनुसूचित जाति/जनजाति के उद्यमियों को नया व्यापार शुरू करने के लिए बैंक ऋण।",
+      "benefits": "Bank loans between Rs 10 lakh and Rs 1 crore for a greenfield enterprise in manufacturing, services, trading or allied agriculture.",
+      "eligibility_text": "Women, or SC/ST individuals, aged 18 or above, setting up a greenfield enterprise; for non-individual enterprises, at least 51% shareholding and control must be with such a person. Borrower should not be in default to any bank.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "age",
+            "op": "gte",
+            "value": 18
+          },
+          {
+            "any": [
+              {
+                "field": "gender",
+                "op": "eq",
+                "value": "female"
+              },
+              {
+                "field": "social_category",
+                "op": "in",
+                "value": [
+                  "SC",
+                  "ST"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "documents_required": [
+        "Identity and address proof",
+        "Caste certificate (for SC/ST applicants)",
+        "Project report",
+        "Business ownership documents"
+      ],
+      "application_steps": [
+        "Register on the Stand-Up Mitra portal or approach a bank branch.",
+        "Prepare the project report.",
+        "Bank appraises and sanctions the loan."
+      ],
+      "official_apply_url": "https://www.standupmitra.in/",
+      "source_url": "https://www.standupmitra.in/",
+      "curation_notes": "social_category is asked only because this scheme's rule uses it. Confirm loan range."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "central-sector-scholarship",
+      "name_en": "Central Sector Scheme of Scholarship for College and University Students",
+      "name_hi": "कॉलेज और विश्वविद्यालय छात्रों के लिए केंद्रीय क्षेत्र छात्रवृत्ति योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Education (Department of Higher Education)",
+      "categories": [
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Meritorious students from low-income families in regular college courses",
+      "description_en": "Scholarship for students who scored in the top percentile of their class 12 board and study in regular college courses.",
+      "description_hi": "कक्षा 12 में बोर्ड के शीर्ष प्रतिशत में आए और नियमित कॉलेज कोर्स कर रहे छात्रों के लिए छात्रवृत्ति।",
+      "benefits": "Yearly scholarship for graduation and post-graduation in regular courses. Confirm current amounts on NSP.",
+      "eligibility_text": "Students above the 80th percentile in their class 12 board, in regular degree courses (not correspondence or diploma), with family income within the scheme limit, and not availing other scholarships.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "undergraduate",
+              "postgraduate"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 450000
+          }
+        ]
+      },
+      "documents_required": [
+        "Class 12 marksheet",
+        "Income certificate",
+        "Aadhaar",
+        "Bank account in student's name",
+        "Admission/fee receipt"
+      ],
+      "application_steps": [
+        "Register on the National Scholarship Portal (NSP).",
+        "Fill the application and upload documents.",
+        "Institute and state verify the application.",
+        "Scholarship is paid by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://scholarships.gov.in/",
+      "curation_notes": "Income limit 4.5 lakh is DRAFT from memory; verify on NSP scheme guidelines."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "aicte-pragati-scholarship",
+      "name_en": "AICTE Pragati Scholarship for Girls",
+      "name_hi": "एआईसीटीई प्रगति छात्रवृत्ति (बालिकाओं के लिए)",
+      "level": "central",
+      "state": null,
+      "department": "All India Council for Technical Education (AICTE)",
+      "categories": [
+        "students",
+        "women"
+      ],
+      "target_beneficiaries": "Girl students in AICTE-approved technical degree or diploma courses",
+      "description_en": "Scholarship for girls admitted to technical degree or diploma courses at AICTE-approved institutions.",
+      "description_hi": "एआईसीटीई मान्यता प्राप्त संस्थानों में तकनीकी डिग्री या डिप्लोमा में दाखिल छात्राओं के लिए छात्रवृत्ति।",
+      "benefits": "Yearly scholarship for the course duration as per AICTE guidelines. Confirm current amount.",
+      "eligibility_text": "Girl students admitted to the first year (or second year via lateral entry) of an AICTE-approved degree or diploma, family income within the limit, at most two girls per family.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "gender",
+            "op": "eq",
+            "value": "female"
+          },
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "diploma",
+              "undergraduate"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 800000
+          }
+        ]
+      },
+      "documents_required": [
+        "Admission letter",
+        "Income certificate",
+        "Class 10/12 marksheets",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Apply on the National Scholarship Portal.",
+        "Institute verifies the application.",
+        "Scholarship paid by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://www.aicte-india.org/",
+      "curation_notes": "Confirm amount and income limit for the current year."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "aicte-saksham-scholarship",
+      "name_en": "AICTE Saksham Scholarship for Specially-abled Students",
+      "name_hi": "एआईसीटीई सक्षम छात्रवृत्ति (दिव्यांग छात्रों के लिए)",
+      "level": "central",
+      "state": null,
+      "department": "All India Council for Technical Education (AICTE)",
+      "categories": [
+        "students",
+        "persons_with_disabilities"
+      ],
+      "target_beneficiaries": "Specially-abled students in AICTE-approved technical courses",
+      "description_en": "Scholarship for students with disabilities studying technical degree or diploma courses.",
+      "description_hi": "तकनीकी डिग्री या डिप्लोमा पढ़ रहे दिव्यांग छात्रों के लिए छात्रवृत्ति।",
+      "benefits": "Yearly scholarship for the course duration as per AICTE guidelines. Confirm current amount.",
+      "eligibility_text": "Students with a disability of at least 40%, admitted to an AICTE-approved degree or diploma course, with family income within the limit.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "has_disability",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "diploma",
+              "undergraduate"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 800000
+          }
+        ]
+      },
+      "documents_required": [
+        "Disability certificate",
+        "Admission letter",
+        "Income certificate",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Apply on the National Scholarship Portal.",
+        "Institute verifies the application.",
+        "Scholarship paid by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://www.aicte-india.org/",
+      "curation_notes": "Confirm amount and income limit."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "post-matric-scholarship-sc",
+      "name_en": "Post Matric Scholarship for Scheduled Caste Students",
+      "name_hi": "अनुसूचित जाति के छात्रों के लिए पोस्ट मैट्रिक छात्रवृत्ति",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Social Justice and Empowerment",
+      "categories": [
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "SC students studying after class 10",
+      "description_en": "Support for fees and study costs for Scheduled Caste students in class 11 and above.",
+      "description_hi": "कक्षा 11 और उससे आगे पढ़ने वाले अनुसूचित जाति के छात्रों को फीस और पढ़ाई के खर्च में सहायता।",
+      "benefits": "Reimbursement of compulsory fees and an academic allowance, as per scheme norms. Applied through state portals.",
+      "eligibility_text": "Scheduled Caste students studying at post-matric level whose family income is within the scheme limit.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "social_category",
+            "op": "in",
+            "value": [
+              "SC"
+            ]
+          },
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "class_11_12",
+              "diploma",
+              "undergraduate",
+              "postgraduate",
+              "phd"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 250000
+          }
+        ]
+      },
+      "documents_required": [
+        "Caste certificate",
+        "Income certificate",
+        "Previous marksheet",
+        "Fee receipt",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Apply on your state scholarship portal (Uttarakhand: scholarship.uk.gov.in) or NSP as notified.",
+        "Institute verifies.",
+        "Payment by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://socialjustice.gov.in/",
+      "curation_notes": "social_category asked only because the rule requires it. Confirm income limit and Uttarakhand application route."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "nmmss",
+      "name_en": "National Means-cum-Merit Scholarship (NMMSS)",
+      "name_hi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Education (Department of School Education and Literacy)",
+      "categories": [
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Meritorious students from low-income families in classes 9 to 12",
+      "description_en": "Scholarship for students selected through a state exam in class 8, to help them continue school.",
+      "description_hi": "कक्षा 8 में राज्य परीक्षा से चुने गए छात्रों को आगे पढ़ाई जारी रखने के लिए छात्रवृत्ति।",
+      "benefits": "Yearly scholarship from class 9 to 12 in government, aided or local body schools. Confirm current amount.",
+      "eligibility_text": "Students who clear the state NMMS selection exam in class 8, study in government/aided/local body schools, and whose family income is within the limit.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "school_upto_8",
+              "class_9_10",
+              "class_11_12"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 350000
+          }
+        ]
+      },
+      "documents_required": [
+        "NMMS exam result",
+        "Income certificate",
+        "School certificate",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Appear in the state NMMS exam in class 8.",
+        "Selected students apply/renew on NSP.",
+        "Payment by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://scholarships.gov.in/",
+      "curation_notes": "Confirm amount and income limit."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "post-matric-scholarship-minorities",
+      "name_en": "Post Matric Scholarship for Minorities",
+      "name_hi": "अल्पसंख्यकों के लिए पोस्ट मैट्रिक छात्रवृत्ति",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Minority Affairs",
+      "categories": [
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Students from notified minority communities studying after class 10",
+      "description_en": "Scholarship for students from notified minority communities in class 11 and above.",
+      "description_hi": "अधिसूचित अल्पसंख्यक समुदायों के कक्षा 11 और आगे के छात्रों के लिए छात्रवृत्ति।",
+      "benefits": "Admission/tuition fee support and maintenance allowance as per scheme norms.",
+      "eligibility_text": "Students from notified minority communities with minimum marks in the previous exam and family income within the scheme limit.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "minority_community",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "class_11_12",
+              "diploma",
+              "undergraduate",
+              "postgraduate",
+              "phd"
+            ]
+          },
+          {
+            "field": "family_income_annual",
+            "op": "lte",
+            "value": 200000
+          }
+        ]
+      },
+      "documents_required": [
+        "Self-declaration of community",
+        "Income certificate",
+        "Previous marksheet",
+        "Fee receipt",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Apply on NSP when the scheme is open.",
+        "Institute verifies.",
+        "Payment by DBT."
+      ],
+      "official_apply_url": "https://scholarships.gov.in/",
+      "source_url": "https://scholarships.gov.in/",
+      "curation_notes": "Asks only yes/no about a notified minority community, because the rule requires it. Confirm the scheme is open this year."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "uttarakhand-state-scholarships",
+      "name_en": "Uttarakhand State Scholarships (Social Welfare portal)",
+      "name_hi": "उत्तराखंड राज्य छात्रवृत्ति (समाज कल्याण पोर्टल)",
+      "level": "state",
+      "state": "Uttarakhand",
+      "department": "Social Welfare Department, Uttarakhand",
+      "categories": [
+        "students",
+        "low_income_families"
+      ],
+      "target_beneficiaries": "Students resident in Uttarakhand",
+      "description_en": "The Uttarakhand portal where students apply for state-administered pre-matric and post-matric scholarships.",
+      "description_hi": "उत्तराखंड का पोर्टल जहाँ छात्र राज्य द्वारा चलाई जाने वाली प्री-मैट्रिक और पोस्ट-मैट्रिक छात्रवृत्तियों के लिए आवेदन करते हैं।",
+      "benefits": "Benefits depend on the specific scholarship selected on the portal.",
+      "eligibility_text": "Students resident in Uttarakhand; each scholarship on the portal has its own category, income and course conditions.",
+      "eligibility_rules": {
+        "all": [
+          {
+            "field": "state",
+            "op": "in",
+            "value": [
+              "Uttarakhand"
+            ]
+          },
+          {
+            "field": "education_level",
+            "op": "in",
+            "value": [
+              "school_upto_8",
+              "class_9_10",
+              "class_11_12",
+              "diploma",
+              "undergraduate",
+              "postgraduate",
+              "phd"
+            ]
+          }
+        ]
+      },
+      "documents_required": [
+        "Uttarakhand residence certificate",
+        "Income certificate",
+        "Category certificate (if applicable)",
+        "Previous marksheet",
+        "Aadhaar",
+        "Bank account details"
+      ],
+      "application_steps": [
+        "Register on the Uttarakhand scholarship portal.",
+        "Choose the scholarship you qualify for.",
+        "Submit and get institute verification."
+      ],
+      "official_apply_url": "https://scholarship.uk.gov.in/",
+      "source_url": "https://scholarship.uk.gov.in/",
+      "curation_notes": "Consider splitting into individual schemes once each is verified on the portal."
+    },
+    {
+      "source_type": "official_portal",
+      "data_origin": "curated_from_public_page",
+      "last_checked_at": null,
+      "verification_status": "needs_verification",
+      "hi_reviewed": false,
+      "slug": "pm-kaushal-vikas-yojana",
+      "name_en": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+      "name_hi": "प्रधानमंत्री कौशल विकास योजना",
+      "level": "central",
+      "state": null,
+      "department": "Ministry of Skill Development and Entrepreneurship",
+      "categories": [
+        "job_seekers",
+        "students"
+      ],
+      "target_beneficiaries": "Youth seeking skill training and certification",
+      "description_en": "Free short-term skill training with government certification to help youth get jobs.",
+      "description_hi": "युवाओं को रोजगार के लिए मुफ्त अल्पकालिक कौशल प्रशिक्षण और सरकारी प्रमाणपत्र।",
+      "benefits": "Free short-term training at accredited centres, assessment and certification. Confirm current scheme phase.",
+      "eligibility_text": "Indian youth meeting the age and education requirements of the chosen course.",
+      "eligibility_rules": null,
+      "documents_required": [
+        "Aadhaar",
+        "Educational certificates",
+        "Bank account details",
+        "Photographs"
+      ],
+      "application_steps": [
+        "Find a training centre on the Skill India Digital portal.",
+        "Enrol in a course.",
+        "Complete training and assessment to get certified."
+      ],
+      "official_apply_url": "https://www.skillindiadigital.gov.in/",
+      "source_url": "https://www.msde.gov.in/",
+      "curation_notes": "Age range not encoded until verified for the current phase."
+    }
+  ]
+}

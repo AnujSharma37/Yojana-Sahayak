@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+**/.next/
+out/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / hosting / misc
+.DS_Store
+.vercel
+next-env.d.ts.bak
